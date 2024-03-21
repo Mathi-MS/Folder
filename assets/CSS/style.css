@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff5d6;
+    overflow-x: hidden;
+    
+}
+
+@font-face {
+    font-family: Amalfi-Coast;
+    font-style: normal;
+    src: local('Amalfi-Coast'), local('Amalfi-Coast'), url('../fonts/Amalfi-Coast.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    font-style: normal;
+    src: local('Poppins-Thin'), local('Poppins-Thin'), url('../fonts/Poppins-Thin.ttf') format("truetype")
+}
+
+
+@media (max-width: 5120px) {
+    .container-new-big {
+        max-width: 100%;
+        padding: 0px 80px;
+    }
+}
+
+@media (max-width: 2000px) {
+    .container-new-big {
+        max-width: 100%;
+        padding: 0px 80px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .container-new-big {
+        max-width: 100%;
+        padding: 0px 80px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .container-new-big {
+        max-width: 100%;
+        padding: 0px 80px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container-new-big {
+        max-width: 100%;
+        padding: 0px 80px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .container-new-big {
+        padding: 0 60px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-new-big {
+        padding: 0 40px;
+    }
+
+    .navbar_baner_section .aries_logo {
+        bottom: -280px;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+    .container-new-big {
+        padding: 0 20px;
+    }
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1680px;
+}
